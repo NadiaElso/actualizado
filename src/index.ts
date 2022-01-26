@@ -8,35 +8,21 @@ console.log(
   "4 packs de leche, 1 pack de azucar, 5 yogures, 4 mantecas, 4 quesos, 10 fideos, 10 salsa de tomates, 4 crema de leches, 6 paquetes de galletitas"
 );
 
-let nombreDesupermercado: string;
-let productosDisponibles: string;
-let stockLeche: number;
-let stockAzucar: number;
-let stockYogurt: number;
-let stockManteca: number;
-let stockQueso: number;
-let stockFideos: number;
-let stockSalsaDeTomate: number;
-let StockAceite: number;
-let StockCremaDeLeche: number;
-let stockDulceDeLeche: number;
-let stockGalletitas: number;
+let nombreDesupermercado: string="Madariaga";
+let productosDisponibles: string=  "Leche,Azucar, Yogurt, manteca, queso, fideos, salsa de tomate, aceite, crema de leche, dulce de leche, galletitas";
+let stockLeche: number=15;
+let stockAzucar: number=9;
+let stockYogurt: number=20;
+let stockManteca: number=10;
+let stockQueso: number=10;
+let stockFideos: number=20;
+let stockSalsaDeTomate: number=30;
+let StockAceite: number=15;
+let StockCremaDeLeche: number=9;
+let stockDulceDeLeche: number=7;
+let stockGalletitas: number=20;
 
 
-nombreDesupermercado = "Madariaga";
-productosDisponibles =
-  "Leche,Azucar, Yogurt, manteca, queso, fideos, salsa de tomate, aceite, crema de leche, dulce de leche, galletitas";
-stockLeche = 4;
-stockAzucar = 1;
-stockYogurt = 5;
-stockManteca = 4;
-stockQueso = 4;
-stockFideos = 10;
-stockSalsaDeTomate = 10;
-StockAceite = 0;
-StockCremaDeLeche = 4;
-stockDulceDeLeche = 0;
-stockGalletitas = 6;
 
 
 console.log(nombreDesupermercado);
@@ -50,27 +36,20 @@ console.log("Stock de Salsa de Tomates"+ stockSalsaDeTomate);
 console.log("Stock de Crema de Leche"+ StockCremaDeLeche);
 console.log("Stock de Dulce de Leche"+ stockDulceDeLeche);
 console.log("Stock de Galletitas"+ stockGalletitas);
-
-let precioLeche:number;
-let precioAzucar:number;
-let precioYogurt:number;
-let precioManteca:number;
-let precioQueso:number;
-let precioFideos:number;
-let preciosalsaDeTomates:number;
-let precioCremaDeLeche:number;
-let precioDulceDeLeche:number;
-let precioGalletitas:number;
+console.log("Stock de Aceite" + StockAceite);
+console.log("Stock de Yogurt" + stockYogurt);
 
 
-precioLeche= 50;
-precioAzucar=60;
-precioYogurt= 60;
-precioManteca=45;
-precioQueso=140;
-precioFideos=70;
-preciosalsaDeTomates=90;
-precioGalletitas=50;
+let precioLeche:number=100;
+let precioAzucar:number=90;
+let precioYogurt:number=130;
+let precioManteca:number=80;
+let precioQueso:number=120;
+let precioFideos:number=70;
+let preciosalsaDeTomates:number=80;
+let precioCremaDeLeche:number=90;
+let precioDulceDeLeche:number=60;
+let precioGalletitas:number=40;
 
 console.log("El precio unitario es:"+precioLeche);
 console.log("El  precio unitario es:"+ precioAzucar);
@@ -80,3 +59,8 @@ console.log("El precio unitario es"+ precioQueso);
 console.log("El precio unitario es:"+ precioFideos);
 console.log("El precio unitario es:"+ preciosalsaDeTomates);
 console.log("El precion unitario es:"+ precioGalletitas);
+console.log("El precion unitario es:"+ precioCremaDeLeche);
+console.log("El precion unitario es:"+ precioDulceDeLeche);
+
+
+
